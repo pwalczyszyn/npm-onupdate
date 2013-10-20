@@ -4,19 +4,31 @@
 
 var program = require('commander');
 
-program.version('0.0.1');
-
-//    .option('-l, --list', 'List all packages registered with your accont.', require('./lib/commands/list'))
-//    .option('-a, --add <package>', 'Register new alert for specified package <package>.', require('./lib/commands/add'))
+program.version('1.0.0');
 
 program
     .command('add <package>')
-    .description('Register new alert for specified <package>.')
+    .description('add new alert for specified <package>')
     .action(require('./lib/commands/add'));
 
 program
-    .command('list')
-    .description('List all packages registered with your accont.')
+    .command('rm <package>')
+    .description('remove alert for specified <package>')
+    .action(require('./lib/commands/rm'));
+
+program
+    .command('ls')
+    .description('list your package alerts')
     .action(require('./lib/commands/list'));
+    
+program
+    .command('logout')
+    .description('logout from the service')
+    .action(require('./lib/commands/logout'));
 
 program.parse(process.argv);
+
+process.on('SIGINT', function() {
+    console.log('\n\n  bye!\n');
+    process.exit(0);
+});

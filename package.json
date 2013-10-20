@@ -1,38 +1,39 @@
 {
-    "name": "onupdate-cli",
-    "version": "0.0.1",
-    "description": "CLI for onupdate.info service",
-    "main": "onupdate.js",
-    "bin": {
-        "onupdate": "./onupdate.js"
-    },
-    "dependencies": {
-        "commander": "~2.0.0",
-        "co-prompt": "~1.0.0",
-        "colors": "~0.6.2",
-        "async": "~0.2.9",
-        "validator": "~1.5.1",
-        "request": "~2.27.0"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pwalczyszyn/onupdate-cli.git"
-    },
-    "keywords": [
+  "name": "onupdate-cli",
+  "version": "0.0.1",
+  "description": "CLI for onupdate.info service",
+  "main": "onupdate.js",
+  "bin": {
+    "onupdate": "./onupdate.js"
+  },
+  "dependencies": {
+    "commander": "~2.0.0",
+    "co-prompt": "~1.0.0",
+    "colors": "~0.6.2",
+    "async": "~0.2.9",
+    "validator": "~1.5.1",
+    "request": "~2.27.0",
+    "path-extra": "~0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pwalczyszyn/onupdate-cli.git"
+  },
+  "keywords": [
     "cli",
     "onupdate.info",
     "npm",
     "updates",
     "package",
     "module"
-    ],
-    "author": "Piotr Walczyszyn",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/pwalczyszyn/onupdate-cli/issues"
-    }
+  ],
+  "author": "Piotr Walczyszyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwalczyszyn/onupdate-cli/issues"
+  }
 }
