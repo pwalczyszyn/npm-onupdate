@@ -2,18 +2,19 @@
   "name": "onupdate-cli",
   "version": "0.0.1",
   "description": "CLI for onupdate.info service",
-  "main": "onupdate.js",
+  "main": "npm-onupdate.js",
   "bin": {
-    "onupdate": "./onupdate.js"
+    "npm-onupdate": "npm-onupdate.js"
   },
   "dependencies": {
     "commander": "~2.0.0",
     "co-prompt": "~1.0.0",
-    "colors": "~0.6.2",
     "async": "~0.2.9",
     "validator": "~1.5.1",
     "request": "~2.27.0",
-    "path-extra": "~0.1.1"
+    "path-extra": "~0.1.1",
+    "update-notifier": "~0.1.7",
+    "chalk": "~0.3.0"
   },
   "devDependencies": {},
   "scripts": {
