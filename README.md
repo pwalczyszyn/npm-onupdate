@@ -1,4 +1,4 @@
-onupdate-cli
+npm-onupdate
 ============
 
-CLI for onupdate.info service
+CLI for npm.onupdate.info service
