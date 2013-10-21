@@ -38,6 +38,7 @@ program
 
 program.parse(process.argv);
 
+// Display info about help when no args were passed
 if (program.args.length === 0) {
     console.log('\n Run `npm-onupdate -h` for help\n');
 }
