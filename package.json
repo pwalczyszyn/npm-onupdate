@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pwalczyszyn/onupdate-cli.git"
+    "url": "https://github.com/pwalczyszyn/npm-onupdate.git"
   },
   "keywords": [
     "cli",
@@ -36,6 +36,6 @@
   "author": "Piotr Walczyszyn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pwalczyszyn/onupdate-cli/issues"
+    "url": "https://github.com/pwalczyszyn/npm-onupdate/issues"
   }
 }
