@@ -28,3 +28,7 @@ CLI for [npm.onupdate.info](http://npm.onupdate.info), a [NPM](https://npmjs.org
 ####Listing all registered alerts
 
     > npm-onupdate ls
+
+###License
+
+  MIT
