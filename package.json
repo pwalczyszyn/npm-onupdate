@@ -26,9 +26,13 @@
     "url": "https://github.com/pwalczyszyn/npm-onupdate.git"
   },
   "keywords": [
+    "npm-onupdate.info",
     "cli",
-    "onupdate.info",
     "npm",
+    "notification",
+    "email notification",
+    "email",
+    "alert",
     "updates",
     "package",
     "module"
