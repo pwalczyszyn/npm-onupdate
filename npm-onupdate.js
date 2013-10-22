@@ -37,9 +37,9 @@ program
     .action(require('./lib/commands/list'));
 
 program
-    .command('logout')
-    .description('logout from the service')
-    .action(require('./lib/commands/logout'));
+    .command('account <info|password|delete|logout>')
+    .description('account info, change password, delete account, or logout')
+    .action(require('./lib/commands/account'));
 
 program.parse(process.argv);
 
