@@ -1,12 +1,12 @@
 {
   "name": "npm-onupdate",
-  "version": "0.0.5",
-  "description": "CLI for npm.onupdate.info service",
+  "version": "0.0.6",
+  "description": "CLI for npm-onupdate.info service",
   "main": "npm-onupdate.js",
   "bin": {
     "npm-onupdate": "npm-onupdate.js"
   },
-  "homepage":"http://npm.onupdate.info",
+  "homepage":"http://npm-onupdate.info",
   "dependencies": {
     "commander": "~2.0.0",
     "co-prompt": "~1.0.0",

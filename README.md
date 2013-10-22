@@ -1,7 +1,7 @@
 npm-onupdate
 ============
 
-CLI for [npm.onupdate.info](http://npm.onupdate.info), a [NPM](https://npmjs.org/) registry email notification service.
+CLI for [npm-onupdate.info](http://npm-onupdate.info), a [NPM](https://npmjs.org/) registry email notification service.
 
 ###INSTALLATION
 
