@@ -17,8 +17,13 @@ if (notifier.update) {
 
 // Registering commainds
 program
+    .command('add')
+    .description('add alerts for all dependencies from package.info file in current dir')
+    .action(function(){});
+
+program
     .command('add <package>')
-    .description('add new alert for specified <package>')
+    .description('add alert for specified package')
     .action(require('./lib/commands/add'));
 
 program
