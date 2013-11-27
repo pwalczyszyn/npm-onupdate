@@ -15,14 +15,18 @@ if (notifier.update) {
     notifier.notify();
 }
 
+
+
 // Registering commainds
 program
     .command('add')
+    .option('--include-dev', 'Include devDependencies')
     .description('add alerts for all dependencies from package.info file in current dir')
     .action(function(){});
 
 program
     .command('add <package>')
+    .option('--include-dev')
     .description('add alert for specified package')
     .action(require('./lib/commands/add'));
 
